@@ -155,7 +155,7 @@ button:active {
     color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
     #container {
         display: flex;
         max-width: 700px;
