@@ -1,2 +1,2 @@
-# Frontend-Mentor-Projects
-My websites made from the Frontend Mentor challenges
+# Frontend-Mentor-Challenges
+My solutions of the Fronted Mentor challenges
