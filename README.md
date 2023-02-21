@@ -1,2 +1,2 @@
 # Frontend-Mentor-Challenges
-My solutions of the Fronted Mentor challenges
+My solutions for the Fronted Mentor challenges
