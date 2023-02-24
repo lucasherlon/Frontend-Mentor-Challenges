@@ -139,8 +139,11 @@ button {
     margin-left: 12px;
 }
 
-button:active {
+button:hover {
     cursor: pointer;
+}
+
+button:active {
     background-image: -webkit-linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
 }
 
