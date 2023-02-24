@@ -1,0 +1,156 @@
+html {
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --white: hsl(0, 0%, 100%);
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+}
+
+body {
+    width: 375px;
+    margin: 0 auto;
+    background-color: var(--cream);
+}
+
+p {
+    color: gray;
+}
+
+img {
+    width: 345px;
+}
+
+#card {
+    max-width: 375px;
+    height: 70vh;
+    border-radius: 15px 15px 15px 15px;
+    margin: 20px;
+    background-color: var(--white);
+    
+}
+
+
+#perfume {
+    max-width: 335px;
+    height: fit-content;
+    border-radius: 15px 15px 0 0;
+    background-color: var(--cream);
+}
+
+
+#content {
+    max-width: 375px;
+    padding: 10px;
+    margin-top: none ;
+    border-radius: 0 0 15px 15px;
+    background-color: var(--white);
+}
+
+#prices {
+    display: flex;
+    align-items: center;
+}
+
+#price {
+    color: var(--dark-cyan);
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    font-weight: 1200;
+    padding: 10px;
+}
+
+#old-price {
+    color: gray;
+    text-decoration: line-through;
+}
+
+button {
+    background-color: var(--dark-cyan);
+    border-style: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    color: var(--white);
+    font-weight: 1000;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(2, 85, 22);
+    
+}
+
+button:active #cart {
+    background-color: rgb(2, 85, 22);
+}
+
+#cart {
+    width: fit-content;
+    background-color: var(--dark-cyan);
+    padding-right: 5px;
+}
+
+#button-cart {
+    padding: 5px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 600px) {
+    body {
+        width: auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    h2 {
+        padding-left: 15px;
+        max-width: 200px;
+    }
+   
+    #card {
+        display: flex;
+        height: fit-content;
+        background-color: var(--cream);
+        margin-left: 370px;
+        margin-top: 90px;
+    }
+
+    #content {
+        
+        height: 380px;
+        width: 280;
+        border-radius: 0 15px 15px 0;
+    
+    }
+
+    #perfume {
+        background-color: var(--white);
+        height: 400px;
+        width: 280px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    #prices {
+        margin-top: -10px;
+    }
+
+
+}
