@@ -36,9 +36,9 @@ h1, h2 {
 
 main {
     width: 60%;
-    min-width: 300px;
+    min-width: 400px;
     background-color: var(--white);
-    height: 1750px;
+    min-height: 1750px;
     padding: 3rem;
     border-radius: 20px;
 }
