@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+}
+
+body {
+    position: absolute;
+}
+
+ header {
+    position: fixed;
+    margin-top: 0;
+    margin-left: 30px;
+    width: 100vw;
+    z-index: -1;
+}
+
+main {
+    z-index: 1;
+    background-color: var(--White);
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 200px;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.question {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.question:hover {
+    color: var(--Grayish-purple);
+}
+
+.answer {
+    font-weight: 400;
+    color: var(--Grayish-purple);
+    margin-bottom: 20px;
+}
+
+
+
+
+
