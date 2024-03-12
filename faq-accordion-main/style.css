@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 :root {
@@ -63,7 +63,24 @@ h2 {
     font-weight: 400;
     color: var(--Grayish-purple);
     margin-bottom: 20px;
+    display: none;
 }
+
+.answerbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem {
+    height: 25px;
+}
+
+.imagem:hover {
+    cursor: pointer;
+}
+
+
 
 
 
